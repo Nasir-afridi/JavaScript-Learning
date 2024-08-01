@@ -29,12 +29,66 @@
       } else {
         console.log("You can't drive");
       }
-      */
+      
 
-      //Logical Operators
+      Logical Operators
+
       console.log(true && true);
       console.log(true || false);
       console.log(!true);
+      
+
+       ******Truthy and Falsy Values******
+
+      it is a truthy value because it behave like a true.
+      if (5) {
+        console.log("Truthy");
+      }
+
+      it is a falsy value because it behaves like a false.
+      if (0) {
+        console.log("Truthy");
+      }
+
+      
+
+      in this case it will be run because it is true.
+      let cartQuantity = 5;
+      if(cartQuantity > 0) {
+        console.log('cart has products')
+      }
+
+       in this case it will also run because it it truthy.
+      let cartQuantity = 5;
+      if (cartQuantity > 0) {
+        console.log("cart has products");
+      }
+
+       NaN : Not a Number,,it means that we get NaN if we do some invalid Math.
+      console.log("text" / 5);
+
+      Undefined: something that does'nt have a value.
+      for const we write this const variable = undefined directly.
+      let variable;
+      console.log(variable);
+      */
+
+      //****** Ternary Operators.********
+      // advantage of ternary operator is that we can save it in a variable.
+      const result = true ? "truthy" : "falsy";
+      console.log(result);
+
+      // ******Guard operator.*********
+      // if the left side is false it will short circuits  means it will stop there and do not check the right side.
+      false && console.log("Hello");
+
+      const message = 5 && "hello";
+      console.log(message);
+
+      // ****** Default operator.
+      // if the left side is true it will short circuits  means it will stop there and do not check the right side.
+      const currency = false || "USD";
+      console.log(currency);
     </script>
   </body>
 </html>
