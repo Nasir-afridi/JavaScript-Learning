@@ -5,9 +5,10 @@
   </head>
   <body>
     <script>
-      const age = 3;
+      const age = 5;
+      isHoliday = true;
 
-      if (age <= 6 || age >= 65) {
+      if (age <= 6 || (age >= 65 && !isHoliday)) {
         console.log("Discount!");
       } else {
         console.log("No Discount");
