@@ -15,6 +15,22 @@
 
       function1(); // calling the function.
       function1();
+
+      // parameters puts a value into a function.
+
+      function calculateTax(parameter1) {
+        // inside the round brackets the parameter is formed.
+        console.log(parameter1 * 1);
+      }
+      calculateTax(2000); // inside the round brackets the value of parameter is store.
+      calculateTax(500); // we can also change the value of parameter1.
+
+      function function2(cost, tax = 0.3) {
+        // the value of tax is default : tax = 0.3;
+        console.log(cost * tax);
+      }
+      function2(2, 0.1); // passing a value into the function.
+      function2(22);
     </script>
   </body>
 </html>
