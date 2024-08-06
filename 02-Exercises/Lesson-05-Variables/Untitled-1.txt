@@ -1,0 +1,5 @@
+1.calculator design.
+2.input box with keyboard press also work.
+3.check box for allowing the keyboard.
+4.initially includes add subtract multiplication division.
+5.only 10 input from 1 to 10.
